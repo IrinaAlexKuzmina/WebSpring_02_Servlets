@@ -1,4 +1,4 @@
-GET http://localhost:8080/api/posts
+GET http://localhost:8080/api/posts/5
 
 ###
 
@@ -6,6 +6,10 @@ POST http://localhost:8080/api/posts
 Content-Type: application/json
 
 {
-  "id": 0,
-  "content": "Last Post"
+  "id": 4,
+  "content": "3 Post"
 }
+
+###
+
+DELETE http://localhost:8080/api/posts/1
