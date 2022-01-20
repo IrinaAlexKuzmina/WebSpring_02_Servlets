@@ -6,10 +6,10 @@ POST http://localhost:8080/api/posts
 Content-Type: application/json
 
 {
-  "id": 4,
-  "content": "3 Post"
+  "id": 3,
+  "content": "33 Post"
 }
 
 ###
 
-DELETE http://localhost:8080/api/posts/1
+DELETE http://localhost:8080/api/posts/3
